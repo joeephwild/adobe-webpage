@@ -1,11 +1,11 @@
-import Image from 'next/image'
+
 import React from 'react'
-import banner from '../public/assets/banner.jpg'
+import banner from '../images/banner.jpeg'
 
 const Banner = () => {
   return (
     <div className="w-full ">
-        <Image src={banner} layout="intrinsic" objectFit='cover' alt="" />
+        <img src={banner} className="w-full" alt="" />
 
         <div className='flex flex-col space-y-6 mt-14 ml-14'>
             <span className='text-xl mb-5 font-bold'>STUDENTS AND TEACHERS</span>
