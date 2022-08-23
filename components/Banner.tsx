@@ -10,7 +10,7 @@ const Banner = () => {
         <div className='flex flex-col space-y-6 mt-14 ml-14'>
             <span className='text-xl mb-5 font-bold'>STUDENTS AND TEACHERS</span>
             <h2 className='text-4xl mb-5 font-bold'>Save big on Creative Cloud.</h2>
-            <p className='text-lg font-semibold mb-5 w-[35rem]'>Save over 60% on 20+ apps. And get a month at no charge when you pay upfront by Sep 5.</p>
+            <p className='text-lg font-semibold mb-5 w-[25rem] md:w-[33rem]'>Save over 60% on 20+ apps. And get a month at no charge when you pay upfront by Sep 5.</p>
             <button className='bg-blue-700 max-w-[7rem] px-2 py-2 rounded-full text-white '>Buy now</button>
             <span className='text-blue-700 text-sm pl-6 font-bold mb-5'>see more</span>
         </div>

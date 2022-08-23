@@ -5,8 +5,8 @@ import Card from '../components/Card'
 import Navbar from '../components/Navbar'
 
 
-import card1 from '../public/assets/logo.JPG'
-import card2 from '../public/assets/card2.JPG'
+import card1 from '../public/assets/card1.jpg'
+import card2 from '../public/assets/card2.jpg'
 
 
 const Home: NextPage = () => {
